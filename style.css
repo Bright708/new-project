@@ -1,0 +1,266 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    font-family: sans-serif;
+}
+.menu{
+   
+    display: flex;
+    flex-direction: column;
+    margin-right: 0px;
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    padding-top: 2rem;
+    padding-right: 2rem;
+   
+    text-decoration: none;
+
+    
+}
+
+.container ul li{
+list-style-type: none;
+}
+.container{
+    background-color:whitesmoke;
+    height: 10rem;
+    position: sticky;
+    top: 0px;
+   
+}
+.logo{
+    font-size: 6rem;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+  
+}
+
+   
+
+.frontpagetitle{
+    padding-left: 2rem;
+    padding-top: 2rem;
+    font-size: 2rem;
+}
+.frontpage{
+    background-image: url(images/c837a6_5950adc5b1a94d49bcd90573bd105b06~mv2.jpg);
+    background-color: hsla(0, 0%, 96%, 0);
+    height: 95vh;
+    width: 100%;
+  
+   
+   
+}
+.ourmenu{
+    display: grid;
+    grid-template-columns: repeat(10,10fr);
+    grid-template-rows: repeat(2,10fr);
+}
+h1{
+   grid-column-start: 1;
+   grid-column-end: 5;
+   grid-row-start: 1;
+   grid-row-end: 3;
+   font-size: 5rem;
+}
+.ourmenuparagraph{
+    grid-row-start: 2;
+    grid-row-end: 3;
+    grid-column-start: 4;
+    grid-column-end: 7;
+    font-size: 1.1rem;
+
+}
+
+.menulink{
+   color: black;
+}
+.menulink:hover,:focus{
+    color: rgb(60, 28, 28);
+
+}
+.firstimg{
+ padding-top: 1rem;
+  columns: 2;
+  white-space: nowrap;
+}
+.firstimg img{
+    width: 100%;
+    height: 40rem;
+
+}
+.secondimg{
+    float: right;
+    height: 30rem;
+   
+}
+.aboutus{
+    background-color:#B7AC44;
+    background-size: cover;
+    display: flex;
+    white-space: nowrap;
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: scroll; 
+    gap: 5rem;
+  
+}
+ .aboutus h1{
+    float: left;
+    padding-left: 10rem;
+    padding-top: 1rem;
+} 
+.aboutus p{
+ float: right; 
+ padding-top: 2rem;
+  
+}
+.aboutus a{
+color: black;
+font-size: 1.5rem;
+white-space: nowrap;
+}
+.aboutus a:hover,:focus{
+    color: rgb(75, 21, 21);
+}
+.followus{
+    height: 25vh;
+    display: grid;
+    grid-template-columns: repeat(20,1fr);
+    grid-template-rows: repeat(3,1fr);
+}
+.followus h1{
+    grid-column-start: 2;
+    grid-column-end: 20;
+    
+}
+.followus p{
+   grid-column-start: 18;
+   grid-column-end: 20;
+   grid-row-start: 2;
+   grid-row-end: 3;
+   font-size: 1.3rem;
+}
+.followus a{
+    color: black;
+}
+.followus a:hover,:focus{
+    color: rgb(68, 19, 19);
+}
+.ourgallery{
+    height: 130vh;
+    /* width: 2890px; */
+   color: rgb(0, 0, 0);
+   column-gap: 1rem;
+    display: grid;
+    grid-template-columns: repeat(60,1fr);
+    overflow-x:auto;
+    grid-template-rows: repeat(15,1fr);
+    white-space: nowrap;
+
+
+}
+.ourgallery1{
+    height: 100%;
+    width: 600px;
+    background-image: url(I2/84770f_21764ad7e259427bbf8c199208e72e22~mv2.jpg);
+    background-size: cover;
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 15;
+}
+.ourgallery2{
+    height: 61vh;
+    width:400px;
+    background-image: url(I2/84770f_a84924a406d84a0bbd1110645f8335e5~mv2.jpg);
+    background-size: cover;
+    grid-column-start: 5;
+    grid-column-end: 10;
+    grid-row-start: 1;
+    grid-row-end: 15;
+   
+
+}
+.ourgallery3{
+    height: 56vh;
+    grid-column-start: 5;
+    grid-column-end: 10;
+    grid-row-start: 9;
+    grid-row-end: 15;
+    background-image: url(I2/84770f_bc39d72f44064ceb8b44efbe9f6c04c8~mv2.jpg);
+    background-size: cover;
+    
+}
+.ourgallery4{
+
+    width: 500px;
+    grid-column-start: 11;
+    grid-column-end: 20;
+    grid-row-start: 1;
+    grid-row-end: 15;
+    background-image: url(I2/84770f_896f92113e2844b2b6e6f2e90a15c67c~mv2.jpg);
+    background-size: cover;
+    
+
+}
+.ourgallery5{
+    width: 700px;
+    grid-column-start: 21;
+    grid-column-end: 30;
+    grid-row-start: 1;
+    grid-row-end: 15;
+    background-image: url(I2/84770f_cd34e9c9e8a94bfca20fd332095cb675~mv2.jpg);
+    background-size: cover;
+    
+}
+.ourgallery6{
+    padding-right: 0rem;
+    width: 600px;
+    grid-column-start: 31;
+    grid-column-end: 60;
+    grid-row-start: 1;
+    grid-row-end: 15;
+    background-image: url(I2/84770f_cd4562b8297945f8898784ebe4ed3250~mv2.jpg);
+    background-size: cover;
+}
+.contact{
+    background-color:rgb(148,145,145) ;
+    display: flex;
+    gap: 20em;
+    overflow-x: scroll;
+    white-space: nowrap;
+    padding-top: 15em;
+}
+ .contact-1{
+    padding-bottom: 4rem;
+    padding-left: 2rem;
+
+}
+.contact ul li{
+    list-style-type: none;
+}
+.contact a{
+    color: black;
+
+}
+.contact a:hover {
+    color: bisque;
+}
+
+
+
+
+
+   
+   
+    
+
+  
